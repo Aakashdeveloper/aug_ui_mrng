@@ -22,3 +22,39 @@ vscode-icons
 TabNine
 gitlens
 githistory
+
+/////////////
+Inline 
+StyleTag
+StyleSheet
+
+
+inline > style tag> stylesheet>
+
+h1
+
+inline{
+    color:red;
+    font-size:30px;
+}
+
+styleytag{
+    color:teal,
+    text-align:center;
+}
+
+stylesheet{
+    color:green;
+    font-size:20px;
+    text-align:right;
+    background-color:orange
+}
+
+
+{
+   color:red;
+   font-size:30px;
+   text-align:center;  
+   background-color:orange
+
+}
