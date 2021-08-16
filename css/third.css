@@ -1,0 +1,28 @@
+h1{
+    color:maroon;
+}
+.headingtext{
+    text-align:center;
+    font-size:30p
+}
+#subheading{
+    color:rgb(63, 185, 179);
+    text-align:center;
+    
+}
+.container{
+    width:30%;
+    display:inline-block;
+    height:200px;
+    background-color:olive;
+    color:white
+}
+.hotpink{
+    background-color:hotpink;
+}
+.slategray{
+    background-color:slategray;
+}
+#skyblue{
+    background-color:skyblue;
+}

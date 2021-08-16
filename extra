@@ -58,3 +58,8 @@ stylesheet{
    background-color:orange
 
 }
+
+
+tagname    H1,a,p
+id         #
+classname  .
