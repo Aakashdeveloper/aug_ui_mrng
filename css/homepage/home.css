@@ -7,11 +7,6 @@ body{
     /*background-size: cover;*/
     background-size: 100% 500px;
 }
-#QuickSearch{
-    height:500px;
-    border:5px groove orange
-}
-
 a{
     text-decoration:none;
 }
@@ -63,7 +58,87 @@ a{
 #dropdown{
     height:60px;
     width:60%;
-    border:2px solid white;
-    margin-left:25%;
+    margin-left:27%;
     margin-top:3%;
+}
+
+select{
+    height:60px;
+    width:40%;
+    font-size:20px 
+}
+
+#restDrop{
+    width:50%;
+    margin-left:1%
+}
+
+#QuickSearch{
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#QuickSearchHeading{
+    color:#192f60;
+    font-size:30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    margin-left: 2%;
+}
+
+#QuickSubHeading{
+    color: gray;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:15px;
+    position: absolute;
+    margin-left: 2%;
+}
+
+.mainTileContainer{
+    margin-top: 4%;
+}
+
+.tileContainer{
+    height:180px;
+    border:2px groove gray;
+    width:30%;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.tileComponent1{
+    width:46%;
+    float: left;
+}
+.tileComponent1 > img{
+    height:180px;
+    width:100%
+}
+.tileComponent2{
+    width:46%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.componentHeading{
+    color:#192f60;
+    font-size:25px;
+    font-weight: bold;
+
+}
+.componentSubHeading{
+    color:gray;
+    font-size:18px;
+    
+}
+footer{
+    text-align: center;
+    font-size:30px
+}
+
+#heart{
+    color:red
 }
