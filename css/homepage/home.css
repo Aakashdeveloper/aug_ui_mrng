@@ -33,11 +33,15 @@ a{
     width:150px;
     background-color: white;
     text-align: center;
-    margin-left: 45%;
+    margin-left: 0%;
     margin-top: 2%;
     border-radius: 50%;
     font-size:90px;
     color:red
+}
+#logo{
+    margin-left: 45%;
+    transition: margin-left 5s;
 }
 
 #logo>span{
@@ -109,6 +113,17 @@ select{
     margin-left: 2%;
     margin-top: 2%;
 }
+
+.tileContainer:hover{
+    /*
+    transform: scale(1.1)
+    transform: rotate(0deg)
+    transform: skewY(20deg)
+    */
+    transform: scale(1.1)
+    
+   
+}
 .tileComponent1{
     width:46%;
     float: left;
@@ -141,4 +156,92 @@ footer{
 
 #heart{
     color:red
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:lightgreen
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:lightcoral
+    }
+    #heading{
+        font-size:35px;
+        width:34%
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:skyblue
+    }
+    #heading{
+        font-size:30px;
+        width:32%
+    }
+    .tileContainer{
+        width:42%
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color:lightslategray
+    }
+    .tileContainer{
+        width:41%
+    }
+    .componentSubHeading{
+        color:white;
+    }
+    #QuickSubHeading{
+        color: white;
+    }
+    #heading{
+        font-size:30px;
+        width:38%
+    }
+    #logo>span{
+        margin-left: -5%;
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color:rgb(238, 231, 129)
+    }
+    .tileContainer{
+        width:90%;
+        margin-top:5%
+    }
+    .componentSubHeading{
+        color:black;
+    }
+    #QuickSubHeading{
+        color: black;
+    }
+    #heading{
+        font-size:30px;
+        width:55%
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color:rgb(150, 190, 241)
+    }
+    .tileContainer{
+        width:95%;
+        margin-top:8%
+    }
+    #heading{
+        font-size:25px;
+        width:65%
+    }
+    #logo>span{
+        margin-left: -8%;
+    }
 }
