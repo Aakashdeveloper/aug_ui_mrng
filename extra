@@ -63,3 +63,10 @@ stylesheet{
 tagname    H1,a,p
 id         #
 classname  .
+
+
+Bootstrap3
+xs <768
+sm > 768
+md > 992
+lg >1200
