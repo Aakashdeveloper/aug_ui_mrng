@@ -1,0 +1,27 @@
+#first{
+    height:200;
+    background-color:lightgreen;
+}
+#second{
+    height:200;
+    background-color:rgb(144, 196, 238);
+}
+#third{
+    height:200;
+    background-color:rgb(238, 187, 128);
+}
+#fourth{
+    height:200;
+    background-color:rgb(238, 141, 112);
+}
+#fifth{
+    height:200;
+    background-color:rgb(143, 118, 231);
+}
+#sixth{
+    height:200;
+    background-color:rgb(144, 238, 222);
+}
+.btn-danger{
+    background-color: rgb(60, 233, 204) !important
+}
