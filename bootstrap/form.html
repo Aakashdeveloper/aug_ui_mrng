@@ -1,0 +1,218 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <hr/>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <a data-toggle="collapse" href="#employee">
+                            Employee Form
+                        </a>
+                    </h3>
+
+                </div>
+                <div id="employee" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <form method="GET" action="#">
+                            <div class="form-group">
+                                <label for="fname">First Name</label>
+                                <input class="form-control" placeholder="First Name" value=""
+                                name="fname" required id="fname"/>
+                            </div>
+                            <div class="form-group">
+                                <label>Last Name</label>
+                                <input class="form-control" placeholder="Last Name"
+                                name="lname" maxlength="10"/>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                        <input class="form-control" placeholder="a@a.com"
+                                            name="email" type="email"/>
+                                    </div>  
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Password</label>
+                                        <input class="form-control" placeholder="password"
+                                        type="password" name="pwd" minlength="5"/>
+                                    </div>  
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Date</label>
+                                        <input class="form-control"
+                                        type="date" name="date"/>
+                                    </div>  
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Photo</label>
+                                        <input class="form-control" type="file" name="avatar"/>
+                                    </div>  
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>City</label>
+                                        <select class="form-control" name="city">
+                                            <option>Delhi</option>
+                                            <option>Mumbai</option>
+                                            <option>London</option>
+                                        </select>
+                                    </div>  
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <div>
+                                            <label>Gender</label>
+                                        </div>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="gender"/>Female
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="gender"/>Male
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <div>
+                                            <label>Shift</label>
+                                        </div>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="gender"/>Day
+                                            </label>
+                                        </div>
+                                        <div class="radio">
+                                            <label>
+                                                <input type="radio" name="gender"/>Night
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div>
+                                        <label>Technology</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="React">React
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" value="Node">Node
+                                        </label>
+                                        <label>
+                                            <input type="checkbox" value="JavaScript">JavaScript
+                                        </label>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="form-group">
+                                <label for="comment">Comment</label>
+                                <textarea id="comment" name="comment" class="form-control" rows="5"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success">
+                                Submit
+                            </button>
+                            <button type="Reset" class="btn btn-danger">
+                                Reset
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <a data-toggle="collapse" href="#students">
+                            Student Form
+                        </a>
+                    </h3>
+                </div>
+                <div id="students" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <form method="GET" action="#">
+                            <div class="form-group">
+                                <label for="fname">First Name</label>
+                                <input class="form-control" placeholder="First Name" value=""
+                                name="fname" required id="fname"/>
+                            </div>
+                            <div class="form-group">
+                                <label>Last Name</label>
+                                <input class="form-control" placeholder="Last Name"
+                                name="lname" maxlength="10"/>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                        <input class="form-control" placeholder="a@a.com"
+                                            name="email" type="email"/>
+                                    </div>  
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Password</label>
+                                        <input class="form-control" placeholder="password"
+                                        type="password" name="pwd" minlength="5"/>
+                                    </div>  
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Date</label>
+                                        <input class="form-control"
+                                        type="date" name="date"/>
+                                    </div>  
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Photo</label>
+                                        <input class="form-control" type="file" name="avatar"/>
+                                    </div>  
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>City</label>
+                                        <select class="form-control" name="city">
+                                            <option>Delhi</option>
+                                            <option>Mumbai</option>
+                                            <option>London</option>
+                                        </select>
+                                    </div>  
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <div>
+                                            <label>Gender</label>
+                                        </div>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="gender"/>Female
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="gender"/>Male
+                                        </label>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <button type="submit" class="btn btn-success">
+                                Submit
+                            </button>
+                            <button type="Reset" class="btn btn-danger">
+                                Reset
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
