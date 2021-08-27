@@ -72,3 +72,10 @@ md > 992
 lg >1200
 
 col-md-offset-1
+
+Bootstrap4
+.col- <576
+.col-sm >576
+.col-md > 768
+.col-lg > 992
+.col-xl > 1200px
