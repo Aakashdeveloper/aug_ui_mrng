@@ -79,3 +79,11 @@ Bootstrap4
 .col-md > 768
 .col-lg > 992
 .col-xl > 1200px
+
+Bootstrap5
+xs < 576px
+sm > 576
+md > 768
+lg > 992
+xl > 1200
+xxl > 1400
