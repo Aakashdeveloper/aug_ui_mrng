@@ -7,12 +7,9 @@ https://nodejs.org/en/
 HTML > Structure
 CSS  > Design
 Bootstrap > Responsive
-
 JavaScript > Dynamic
-
 Block Level  >>> Start from new line
 Inline Element >>> Start in same line
-
 
 /////////
 install extension in VS code
@@ -87,3 +84,68 @@ md > 768
 lg > 992
 xl > 1200
 xxl > 1400
+
+> DataTypes
+> variable
+/////////////////////////
+> alert console prompt
+> Operations
+> String literals
+> Math
+> String Operations
+> let, const
+> localstorage
+> sessionStorage
+> cookies
+> github 
+> condition
+> if else
+> ternery Operations
+> Date
+> switch
+> array
+> loops
+> Functions
+> destructure
+> Rest
+> spread
+> Es6
+    > maps,filter
+> regex
+> Clousers
+> Hoisting
+> object 
+> JSON
+> Es6
+    > Transpile
+    > import export
+> package.JSON
+> npm
+> this
+> Es6
+    > classes
+> Prototypes
+> DoM
+> Calc
+> Form validation
+> Event
+> Geolocation
+> currenyConvertor
+> promis
+> async await
+> dark/light mode
+> Dynamic DropDown
+> screen
+> Progress bar
+> Call/Apply
+> set interval
+> set timeout
+> debouncing
+> Baisc Jquery
+> Weather application
+> ajax
+> sets
+> DataTables
+> fabonicci
+> factorial
+> palindrome
