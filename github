@@ -1,0 +1,24 @@
+## first Time form New folder
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/javascriptaug.git
+git push -u origin master
+
+## next all Time
+git status
+
+git add .
+git commit -m "first commit"
+git push
+
+///////branches//////
+>>new branch
+
+git checkout -b branchname
+
+>>switch branch
+git checkout branchname
+
+git clone https://github.com/Aakashdeveloper/javascriptaug
