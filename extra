@@ -102,18 +102,19 @@ xxl > 1400
 > ternery Operations
 > Date
 > switch
-/////////////////////////
 > array
 > loops
-> Functions
-> destructure
 > Rest
 > spread
+/////////////////////////
+> Functions
 > Es6
     > maps,filter
-> regex
 > Clousers
 > Hoisting
+
+> destructure
+> regex
 > object 
 > JSON
 > Es6
