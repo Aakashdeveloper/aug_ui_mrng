@@ -106,17 +106,17 @@ xxl > 1400
 > loops
 > Rest
 > spread
-/////////////////////////
 > Functions
 > Es6
     > maps,filter
-> Clousers
 > Hoisting
-
+> Clousers
+/////////////////////////
 > destructure
 > regex
 > object 
 > JSON
+
 > Es6
     > Transpile
     > import export
@@ -127,6 +127,7 @@ xxl > 1400
     > classes
 > Prototypes
 > DoM
+
 > Calc
 > Form validation
 > Event

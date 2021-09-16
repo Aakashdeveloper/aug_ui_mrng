@@ -4,7 +4,7 @@ const > we cannot redeclare nor reassign
 
 var a = 10;
 var a; > declare
-a = 10 >assignment
+a = 10 > assignment
 > var a = 10
 undefined
 > a
