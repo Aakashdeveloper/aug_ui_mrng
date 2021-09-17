@@ -111,17 +111,17 @@ xxl > 1400
     > maps,filter
 > Hoisting
 > Clousers
-/////////////////////////
-> destructure
+> destructing
 > regex
-> object 
 > JSON
-
+/////////////////////////
+> object 
 > Es6
     > Transpile
     > import export
 > package.JSON
 > npm
+
 > this
 > Es6
     > classes
