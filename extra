@@ -114,15 +114,14 @@ xxl > 1400
 > destructing
 > regex
 > JSON
-/////////////////////////
 > object 
 > Es6
     > Transpile
     > import export
 > package.JSON
 > npm
-
 > this
+/////////////////////////
 > Es6
     > classes
 > Prototypes
@@ -154,3 +153,17 @@ xxl > 1400
 
 
 https://nodejs.org/en/
+
+/////////////
+step to generate package.json
+////////////
+** nodejs must be installed in system
+> go inside the folder using cmd
+> npm init -y
+
+/////////////
+step to install package
+////////////
+** nodejs must be installed in system
+> go inside the folder using cmd
+> npm i @babel/core @babel/preset-env @babel/register
