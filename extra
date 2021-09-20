@@ -121,20 +121,20 @@ xxl > 1400
 > package.JSON
 > npm
 > this
-/////////////////////////
 > Es6
     > classes
 > Prototypes
 > DoM
-
 > Calc
+> dark/light mode
+/////////////////////////
 > Form validation
 > Event
-> Geolocation
 > currenyConvertor
 > promis
 > async await
-> dark/light mode
+
+> Geolocation
 > Dynamic DropDown
 > screen
 > Progress bar

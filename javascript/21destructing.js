@@ -25,7 +25,7 @@ b
 2
 
 var x = {1:10,m:20}
-var {1:abc,m:xyz} = x
+var {key:abc,m:xyz} = x
 abc
 10
 xyz
