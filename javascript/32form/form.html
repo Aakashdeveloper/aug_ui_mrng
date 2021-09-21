@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="form.js"></script>
+        <link rel="stylesheet" href="form.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <hr/>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <a data-toggle="collapse" href="#employee">
+                            Employee Form
+                        </a>
+                    </h3>
+
+                </div>
+                <div id="employee" class="">
+                    <div class="panel-body">
+                        <form method="GET" action="#">
+                            <div class="form-group">
+                                <label for="eid">Employee Id</label>
+                                <input class="form-control" value=""
+                                name="id" id="eid" readonly/>
+                            </div>
+                            <div class="form-group">
+                                <label for="fname">First Name</label>
+                                <input class="form-control" placeholder="First Name" value=""
+                                name="fname" id="fname" onblur="validateFname()"/>
+                                <p id="fout"></p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                        <input class="form-control" placeholder="a@a.com"
+                                            name="email" id="email" oninput="validateEmail()"/>
+                                        <p id="eout"></p>
+                                    </div>  
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Password</label>
+                                        <input class="form-control" placeholder="password"
+                                        type="password" name="pwd" id="pwd" oninput="validatePassword()"/>
+                                        <span class="glyphicon glyphicon-eye-open" onclick="showPassword()"></span>
+                                        <p id="pout"></p>
+                                        <div id="ppout"></div>
+                                    </div>  
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Confirm Password</label>
+                                        <input class="form-control" placeholder="Confirm password"
+                                        type="password" name="cpwd" id="cpwd" oninput="validateCPassword()"/>
+                                        <p id="cpout"></p>
+                                    </div>  
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Date</label>
+                                        <input class="form-control"
+                                        type="date" name="date"/>
+                                    </div>  
+                                </div>
+                                <div class="col-md-6">
+                                    <span></span>
+                                    <div class="form-group">
+                                        <label>City</label>
+                                        <select class="form-control" name="city" id="city" onChange="getCity()">
+                                            <option>Delhi</option>
+                                            <option>Mumbai</option>
+                                            <option>London</option>
+                                        </select>
+                                    </div>  
+                                </div>
+                            </div>
+                          
+                            <button type="submit" class="btn btn-success">
+                                Submit
+                            </button>
+                        </form>
+                        <script>
+                            window.onload=getId()
+                        </script>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
