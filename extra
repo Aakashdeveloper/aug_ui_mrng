@@ -133,16 +133,14 @@ xxl > 1400
 > promis
 > async await
 > Geolocation
-/////////////////////////
 > Dynamic DropDown
 > screen
-
-> Progress bar
-> Call/Apply
 > set interval
 > set timeout
+/////////////////////////
+> Progress bar
+> Call/Apply
 > debouncing
-
 > Baisc Jquery
 > Weather application
 > ajax
