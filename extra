@@ -137,15 +137,17 @@ xxl > 1400
 > screen
 > set interval
 > set timeout
-/////////////////////////
 > Progress bar
-> Call/Apply
 > debouncing
+> Call/Apply
+/////////////////////////
 > Baisc Jquery
 > Weather application
 > ajax
 > sets
 > DataTables
+
+> recurcive function
 > fabonicci
 > factorial
 > palindrome
@@ -166,3 +168,12 @@ step to install package
 ** nodejs must be installed in system
 > go inside the folder using cmd
 > npm i @babel/core @babel/preset-env @babel/register
+
+
+var dbquery = {
+    find: (table) => {return `select * from ${table}`},
+    insert: (table,data) => {return 'inserting into ${table} the ${data.name}'} 
+}
+
+dbquery.find('user')
+'select * from ${table}'
